@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishav Raj - Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/Portfolio1/assests/CSS/styles1.css">
+</head>
+
+<body>
+
+    <canvas id="cursorCanvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <!-- <a href="#home">Rishav<span>.dev</span></a> -->
+
+                <!-- for loading page option-1 -->
+                <a href=".">Rishav<span>.dev</span></a>
+
+                <!-- option2 by using js-->
+                <!-- <a href="#home" onclick="location.reload(); return false;">Rishav<span>.dev</span></a> -->
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <button class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Rishav Raj</span>
+                </h1>
+                <p class="hero-subtitle">Full Stack Developer & UI/UX Designer</p>
+                <p class="hero-description">
+                    I create beautiful, responsive web applications with modern technologies
+                    and exceptional user experiences.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/RishavRaj625" class="social-link" target="_blank"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/rishav-raj-723413263/" class="social-link" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
+                    <!-- <a href="https://twitter.com" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a> -->
+                    <a href="https://www.instagram.com/rishav4436?igsh=dTJ5NmJpMWpkYnU=" class="social-link"
+                        target="_blank"><i class="fab fa-instagram"></i></a>
+
+                    <!-- <a href="/Portfolio1/assests/Img/RISHAV RAJ.pdf" download class="social-link">
+                        <i class="fas fa-download"></i></a> -->
+
+                    <a href="/Portfolio1/assests/Img/RISHAV RAJ.pdf" class="social-link">
+                        <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-avatar">
+                    <div class="avatar-placeholder">
+                        <!-- <i class="fas fa-user"></i> -->
+                        <img src="/Portfolio1/assests/2.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#about" class="scroll-indicator">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+    </section>
+
+    <section id="about" class="about section-offset">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>I'm a passionate developer who loves creating digital experiences</h3>
+                    <p>
+                        I'm a dedicated web developer with a strong passion for building modern, interactive, and
+                        scalable web applications.
+                        I've worked on several real-world projects and participated in national-level hackathons, where
+                        I had the opportunity
+                        to solve meaningful problems with creative solutions.
+                    </p>
+                    <p>
+                        My strengths lie in writing clean, efficient code and designing user-friendly interfaces. I
+                        enjoy exploring new technologies,
+                        contributing to open-source projects, and collaborating with other developers to build impactful
+                        digital products.
+                    </p>
+                    <p>
+                        When I'm not coding, I'm either learning something new, experimenting with side projects, or
+                        sharing my knowledge with the developer community.
+                    </p>
+
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4>30+</h4>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h4>5+</h4>
+                            <p>Hackthons Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h4>80%</h4>
+                            <p>Hackthons Success Rate</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-img-container">
+                        <div class="img-placeholder">
+                            <!-- <i class="fas fa-code"></i> -->
+                            <!-- <img src="/Portfolio1/assests/1.jpg"> -->
+                            <img src="/Portfolio1/assests/Img/Img3.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                        <!-- <div class="skill-item">
+                            <i class="fab fa-vue"></i>
+                            <span>Vue.js</span>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MongoDB</span>
+                        </div>
+                        <!-- <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span>Express.js</span>
+                        </div> -->
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-flask"></i>
+                            <span>Flask</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-figma"></i>
+                            <span>Figma</span>
+                        </div>
+                        <!-- <div class="skill-item">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                        </div> -->
+                        <div class="skill-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Responsive Design</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-search"></i>
+                            <span>SEO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <!-- <i class="fas fa-laptop-code"></i> -->
+                            <img src="/Portfolio1/assests/1.jpg">
+
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://https2shayari2dashboard.vercel.app/" target="_blank"
+                                    class="project-link"><i class="fas fa-eye"></i></a>
+                                <a href="https://github.com/RishavRaj625/Shayari-Dashboard" class="project-link"><i
+                                        class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Shayari Dashboard</h3>
+                        <p>A beautiful, responsive web application for managing and organizing your collection of
+                            Shayaris (Hindi/English poetry).</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                            <span>Vercel</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-mobile-alt"></i>
+                            <img src="/Portfolio1/assests/4.jpg">
+
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://herbarium-3d-visualization-garden.vercel.app/" target="_blank"
+                                    class="project-link"><i class="fas fa-eye"></i></a>
+                                <a href="https://github.com/RishavRaj625/Herbarium_3D_Visualization_Garden"
+                                    class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>3D Herbarium Garden</h3>
+                        <p>Interactive 3D herbarium visualizer for plant exploration and education</p>
+                        <div class="project-tech">
+                            <span>Three.js</span>
+                            <span>JavaScript</span>
+                            <span>Vercel</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <!-- <i class="fas fa-chart-line"></i> -->
+                            <img src="/Portfolio1/assests/1.jpg">
+
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://carbon-foot-record.streamlit.app/" target="_blank"
+                                    class="project-link"><i class="fas fa-eye"></i></a>
+                                <a href="https://github.com/RishavRaj625/CarbonFootCal" class="project-link"><i
+                                        class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Carbon Footprint Tracker</h3>
+                        <p>Streamlit app to calculate and visualize personal carbon footprint data</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Streamlit</span>
+                            <span>Pandas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's discuss your project</h3>
+                    <p>
+                        I'm always interested in new opportunities and exciting projects.
+                        Whether you have a question or just want to say hi, feel free to reach out!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>crishav938@gmail.com & rishav2raj78@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 8102332315</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Kolkata, India</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Rishav Raj. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/RishavRaj625" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/rishav-raj-723413263/" class="social-link"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/rishav4436?igsh=dTJ5NmJpMWpkYnU=" class="social-link"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/Portfolio1/assests/script/Script1.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
