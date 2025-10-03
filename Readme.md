@@ -20,7 +20,7 @@ A modern, responsive portfolio website showcasing my skills, projects, and exper
 - **Contact Form** - Functional contact form with EmailJS integration
 - **Social Media Integration** - Direct links to social profiles
 - **SEO Optimized** - Search engine friendly structure
-- **Modern UI/UX** - Clean, professional design with gradient accents
+- **Modern UI/UX** - Clean, professional design with gradient accents.
 
 ## 🛠️ Built With
 
@@ -202,3 +202,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 ⭐ Star this repository if you found it helpful!
+
