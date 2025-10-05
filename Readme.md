@@ -1,6 +1,6 @@
 # Rishav Raj - Portfolio Website
 
-A modern, responsive portfolio website showcasing my skills, projects, and experience as a Full Stack Developer & UI/UX Designer.
+A modern, responsive portfolio website showcasing my skills, projects, and experience as a Full Stack Developer & UI/UX Designer
 
 ## 🚀 Live Demo
 
@@ -202,4 +202,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 ⭐ Star this repository if you found it helpful!
+
 
