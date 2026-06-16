@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // EMAILJS CONFIGURATION
     // Replace these with your actual EmailJS credentials
     const EMAILJS_CONFIG = {
-        PUBLIC_KEY: 'yQ6YMwFRYDFE1276x',    // Get from EmailJS Dashboard
+        PUBLIC_KEY: 'JK3ufcwUFVP2ZNhdM',    // Get from EmailJS Dashboard
         SERVICE_ID: 'service_4ccpbn5',           // Gmail, Outlook, etc.
         TEMPLATE_ID: 'template_l13fgw5',         // Template you created
         ADMIN_EMAIL: 'rishav2raj78@gmail.com'   // Your email to receive notifications
